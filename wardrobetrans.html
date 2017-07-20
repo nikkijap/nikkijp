@@ -1,0 +1,41 @@
+﻿<!DOCTYPE HTML>
+<html lang="zh">
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="bookmark" href="favicon.ico" type="image/x-icon" />
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>奇跡暖暖-衣櫃繁簡轉換</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="onekeystrategy.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="ui.css">
+		<link rel="stylesheet" type="text/css" href="mobileui.css" media="only screen and (max-width: 650px)">
+		<script type="text/javascript" charset="UTF-8" src="jquery.js"></script>
+		<script type='text/javascript' charset="UTF-8" src='wardrobetrans.js'></script>
+  </head>
+  <body>
+		<div class='title'>
+			<a href="nikki.html">奇跡暖暖搭配工具-繁體版</a><br>
+			奇跡暖暖-衣櫃繁簡轉換 by 玥珞<br>
+		</div>
+		<hr>
+		<p>我擁有的服裝（繁）</p>
+		<textarea id="myClothesTrad" rows=10 style="width:60%"></textarea><br/>
+		<button onClick="transTraditional()">產生繁體備份檔</button>
+		<button onClick="transSimp()">轉為簡體衣櫃</button>
+		<a id='clothesDownloadTraditional'></a>
+		<br/>
+		<br/>
+		<p>我擁有的服裝（簡）</p>
+		<textarea id="myClothesSimp" rows=10 style="width:60%"></textarea><br/>
+		<button onClick="exportCustomInventory()">產生簡體備份檔</button>
+		<button onClick="transTrad()">轉為繁體衣櫃</button>
+		<a id='clothesDownload'></a>
+		<br/>
+		<hr>
+</body>
+</html>
