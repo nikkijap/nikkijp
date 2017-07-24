@@ -23,7 +23,7 @@
 	var $title = p($("#theme").val() == "custom" ? "....." : $("#theme").val(),"title");
 	$strategy.append($title);
 	
-	var $author = p("配裝器一鍵攻略@玥珞", "author");
+	var $author = p("配裝器一鍵攻略@米琳", "author");
 	$strategy.append($author);
 	
 	if(keywords != null){
