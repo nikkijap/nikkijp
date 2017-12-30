@@ -1,6 +1,6 @@
-	// Clothes: name, type, id, stars, gorgeous, simple, elegant, active, mature, cute, sexy, pure, cool, warm, extra, source, set
-	// credits to @ Shirley
-	var wardrobe = [
+// Clothes: name, type, id, stars, gorgeous, simple, elegant, active, mature, cute, sexy, pure, cool, warm, extra, source, set
+// credits to @ Shirley
+var wardrobe = [
 　['薄紅色ロング [春櫻粉毛]','髮型','001','2','','S','','A','','A','','A','','A','','贈送','','V1.0.0'],
 　['スポーツ少年 [運動少年]','髮型','004','3','','S','','A','','A','','S','A','','中性風','店·金幣/浪·迷/浪·幻','','V1.0.0'],
 　['自由人 [不羈]','髮型','005','3','','S','','A','','A','','A','S','','中性風','設·定004','','V1.0.0'],
