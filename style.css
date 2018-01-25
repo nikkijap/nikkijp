@@ -32,13 +32,14 @@ input[type="checkbox"]{
 fieldset {
     padding: .35em .625em .75em;
     border: 1px solid silver;
+	border-color: #8f7eff;
 }
 legend {
 	border: 0;
     width: auto;
     margin-bottom:0;
     font-size: 14px;
-	border-color: #a4cfff;
+	border-color: #8f7eff;
 }
 /**********duoshuo start**************/
 #ds-thread #ds-reset .ds-post-self {
@@ -51,6 +52,7 @@ legend {
 .fliter_form_div_left{
 	float: left;
 	margin-right: 10px;
+	border-color: #8f7eff;
 }
 @media ( max-width : 1020px){
 	.fliter_form_div_left{
@@ -59,6 +61,7 @@ legend {
 }
 #filtersTop select{
 	height:34px;
+	border-color: #8f7eff;
 }
 
 #theme:hover, #theme:active, #theme:focus,
@@ -71,17 +74,21 @@ legend {
 	margin: 5px 0;
 	overflow: hidden;
 	display: flex;
+	border-color: #8f7eff;	
 }
 .weightContainer * {
 	float:left;
 	border-radius: 0;
 	line-height: 1.2;
+	border-color: #8f7eff;	
 }
 .weightContainer > :first-child {
 	border-radius: 4px 0 0 4px;
+	border-color: #8f7eff;	
 }
 .weightContainer input:last-of-type {
 	border-radius: 0 4px 4px 0;
+	border-color: #8f7eff;	
 }
 .weightContainer label.active{
 	font-weight: bold;
@@ -90,7 +97,7 @@ legend {
 	width: 7em;
 	padding-left: 3px;
 	border: 1px solid transparent;
-	border-color: #ccc;
+	border-color: #8f7eff;	
 }
 .weightContainer input#tag1weight, .weightContainer input#tag2weight{
 	width: 3em;	
@@ -98,10 +105,10 @@ legend {
 .weightContainer select{
 	max-width: 65px;
 	border: 1px solid transparent;
-	border-color: #ccc;
+	border-color: #8f7eff;	
 }
 .weightContainer .highscore-link{
-	color: grey;
+	color: #a4cfff;
 	font-style: italic;
 	font-weight: bold;
 	cursor: pointer;
@@ -112,18 +119,60 @@ legend {
 	display: none;
 }
 .weightContainer .highscore-link.active{
-	color: DeepPink;
+	color: 1430ff;
 }
 
 .fliter_option{
+	color: #5255ff;
 }
-
+.blue{
+	background-color:#91a9ff;
+	border-color:#91a9ff;
+	border:#91a9ff;
+}
+.blue:hover{
+	background-color:#3a56df;
+	border-color:#3a56df;
+}
+.teal{
+	background-color:#4294a5;
+	border-color:#4294a5;	
+	border:#4294a5;
+}
+.teal:hover{
+	background-color:#3649da;
+	border-color:#3649da;
+	border:1px;
+}
+.blue2{
+	background-color:#8f7eff;
+	border-color:#8f7eff;
+}
+.blue2:hover{
+	background-color:#87a1fd;
+	border-color:#87a1fd;
+}
+.blue3{
+	background-color:#8f7eff;
+	border-color:#8f7eff;
+	border-radius:2px;
+	-moz-border-radius: 15px;     
+	-webkit-border-radius: 15px; 
+}
+.blue3:hover{
+	background-color:#87a1fd;
+	border-color:#87a1fd;
+	-moz-border-radius: 15px;     
+	-webkit-border-radius: 15px; 
+}
 /************************/
 #category_container div {
 	display:none;
+	color:#0d42ff;
 }
 #category_container div.active {
 	display:block;
+	color:#001996;
 }
 .filterlabel{
 	margin-right: 0.5em;
@@ -139,7 +188,7 @@ legend {
 	font-weight:bold;
 }	
 .not_f{
-	color: green;
+	color: d3c9ff;
 	font-weight:bold;
 }	
 .gongzhuSkill{
@@ -147,15 +196,15 @@ legend {
 	font-weight:bold;
 }	
 .normalSkill{
-	color: grey;
+	color: c9ebff;
 	font-weight:bold;
 }	
 .hintInfo{
-	color: teal;
+	color: 70c1e0;
 	font-weight:bold;
 }
 span.badge{
-	background: SlateGray;
+	background: ba8eff;
 }
 .gotop{
 	font-family: 'Glyphicons Halflings';
@@ -174,6 +223,7 @@ red{
 	font-weight:bold;		
 }
 #advanced_options_span, #front_filter_span{
+	color:#8f7eff;
 	display: none;
 }
 .ds-powered-by, .ds-dialog-footer{
@@ -202,6 +252,7 @@ div.announcement {
 	padding: 5px;
 	max-height: 280px;
 	overflow: auto;
+	border-color: #8f7eff;
 }
 div.announcement hr{
 	margin-top: 8px;
