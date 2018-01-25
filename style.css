@@ -238,6 +238,13 @@ div.top{
 }
 div.facet {
 }
+div.tit{
+	font-size:24px;
+	font-style:華康少女;
+	font-family: bold;
+	background-color:#a4b3ff;
+	text-align:center;
+}
 div.title{		
   max-width: 800px;		
 }
