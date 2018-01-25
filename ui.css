@@ -69,7 +69,7 @@
 	color: #eee;
 }
 .table-td.new{
-	color: #38F;
+	color: #2252ff;
 }
 .table-td.name .button {
   border: 0.1em solid #ccc;
@@ -84,7 +84,7 @@
   border-radius: 0.2em;
 }
 .table-td.name.own .button{
-  background-color: #bfb;
+  background-color: #bbdbff;
 }
 .table-td.name.search {
   float: left;
@@ -92,8 +92,8 @@
 }
 .table-td.name.searchCate .button {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #cce9ff;
+  border-color: #bea4ff;
   cursor: default;
 }
 
@@ -111,12 +111,12 @@
   z-index: 255;
   white-space: pre;
   text-align: left;
-  background-color: #bfb;
+  background-color: #e0dfff;
 }
 [tooltip]:hover:after {
   display : inline-block;
   padding: 10px;
 }
 .table-td.deps [tooltip]:after {
-  background-color: #ddf;
+  background-color: #ddf7ff;
 }
