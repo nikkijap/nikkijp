@@ -38,6 +38,7 @@ legend {
     width: auto;
     margin-bottom:0;
     font-size: 14px;
+	border-color: #a4cfff;
 }
 /**********duoshuo start**************/
 #ds-thread #ds-reset .ds-post-self {
