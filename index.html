@@ -145,7 +145,7 @@
 					<div class="btn-group">
 						<select id="theme-fliter" onChange="reDrawTheme()" class="btn btn-default"></select>
 						<select id="theme" onChange="changeTheme()" class="btn btn-default"></select>
-						<button id="onekey" class="btn btn-default">一鍵攻略</button>
+						<button id="onekey" class="btn btn-default blue2">一鍵攻略</button>
 					</div>
 					<div id="tagInfo"></div>
 					<div id="skillInfo"></div>
@@ -241,7 +241,7 @@
 							</fieldset>
 							<fieldset>
 								<legend>篩選(先點擊顯示全部衣服)</legend>
-									<button  type="button" class="btn btn-xs btn-info front_filter_option" >全部</button>
+									<button  type="button" class="btn btn-xs btn-info front_filter_option teal" >全部</button>
 									<button  type="button" class="btn btn-xs btn-default front_filter_option" >尚缺材料</button>
 									<button  type="button" class="btn btn-xs btn-default front_filter_option" >暫不缺材料</button>
 									<button  type="button" class="btn btn-xs btn-default front_filter_option" >少女級</button>
@@ -261,7 +261,7 @@
 									<button  type="button" class="btn btn-xs btn-default front_filter_option" >5星</button>
 									<button  type="button" class="btn btn-xs btn-default front_filter_option" >套裝部件</button>
 									<button  type="button" class="btn btn-xs btn-default front_filter_option" >新品</button>
-									<button  type="button" class="btn btn-xs btn-success" id="add_all">添加所有顯示的衣服到衣櫃</button>
+									<button  type="button" class="btn btn-xs btn-success blue" id="add_all">添加所有顯示的衣服到衣櫃</button>
 							</fieldset>
 						</div>
 					</form>
@@ -284,11 +284,11 @@
 		<div class = "showmore" id= "showmore" isshowmore="1">↓顯示全部衣服↓</div>
 		<div id = "end"></div>
 		<hr>
-		導入批量衣服，請先選擇要導入的類別，然後在文字方塊內輸入編號，用空格、逗號或者換行隔開。不知道編號在哪兒的請點<a href="http://tieba.baidu.com/p/3808711082" target="_blank">這裡</a>
+		導入批量衣服，請先選擇要導入的類別，然後在文字方塊內輸入編號，用空格、逗號或者換行隔開。不知道編號在哪兒的請點<a href="http://tieba.baidu.com/p/3808711082 style="color:#0984ff" target="_blank">這裡</a>
 		<div id = "import">
 		  <select id="importCate" onChange="clearImport()" ></select><br/>
 		  <textarea id="importData" rows=5 style="width:60%" ></textarea>
-		  <button onClick="doImport()">導入</button>
+		  <button class = "blue3" onClick="doImport()">導入</button>
 		</div>
 		<hr>
 		<!-- <p>我擁有的服裝 （複製衣櫥文字方塊內容以備份衣櫥）</p> -->
@@ -308,9 +308,9 @@
 		<p>自訂檔案名稱：<input id="inputFileNameToSaveAs"></input><button onclick="saveTextAsFile()">儲存檔案</button></p>
 		<p>選擇檔案：</p>
 		<input type="file" id="fileToLoad">
-		<button onclick="loadFileAsText()">讀取檔案</button>
+		<button class = "blue3 onclick="loadFileAsText()">讀取檔案</button>
 		<br/>
-		<button onClick="loadCustomInventory()">恢復備份</button>
+		<button class = "blue3 onClick="loadCustomInventory()">恢復備份</button>
 		<br/>
 		<hr>
 </body>
